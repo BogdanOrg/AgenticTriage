@@ -8,6 +8,8 @@ import urllib.request
 import json
 
 
+
+
 def authenticate(username: str, password: str, api_token: str) -> int:
     # CWE-319: sensitive data sent over an unencrypted HTTP connection
     url = "http://api.example.com/v1/login"
