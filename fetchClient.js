@@ -14,6 +14,7 @@ async function loginWithFetch(username, password) {
   return res.status;
 }
 
+
 // --- Pattern 2: token in URL query string over http:// ---
 async function fetchProfile(apiToken) {
   // CWE-319: API token leaked in a cleartext URL query parameter
