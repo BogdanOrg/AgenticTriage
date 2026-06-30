@@ -10,6 +10,8 @@ const api = axios.create({
   baseURL: "http://api.example.com",
 });
 
+
+
 async function authenticate(username, password, apiToken) {
   // CWE-319: password and bearer token sent in cleartext over HTTP
   const res = await api.post(
